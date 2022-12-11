@@ -1,3 +1,7 @@
+#4-Создайте два списка — один с названиями языков программирования, другой — с их нумерацией.
+#['python', 'c#']
+#[1,2]
+
 from typing import List
 
 def cortege_list_creatir(lang=None, numbers=None) -> List[tuple[int, str]]:
